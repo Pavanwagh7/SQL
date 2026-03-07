@@ -25,4 +25,4 @@ group by branch;
 -- 7. Display branch names where total students are more than 1. (Use HAVING)
 select count(branch),branch from student 
 group by branch
-having count(branch) > 1; 
+having count(branch) >= 1; 
