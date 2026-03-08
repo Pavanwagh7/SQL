@@ -38,8 +38,13 @@ values (1,'Mathematics',99),
 	(10,'DBMS',90),
 	(11,'Integrated Circuits',80),
 	(12,'DSA',70),
-	(13,'DSA',60);
+	(13,'DSA',60),
+    (14,'music',60),
+    (15,'dance',60);
     
+
+delete from marks
+where student_id = 5;    
 select * from marks;
 
 
